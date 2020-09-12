@@ -33,7 +33,7 @@ $(function () {
         AOS.refresh();
     })
 
-    var headerswiper = new Swiper("header .swiper-container", {
+    var sliderswiper = new Swiper(".slider .swiper-container", {
         grabCursor: true,
         autoplay: {
             delay: 5000,
@@ -43,7 +43,7 @@ $(function () {
         spaceBetween: 20,
         slidesPerView: 1,
         pagination: {
-            el: "header .swiper-pagination",
+            el: ".slider .swiper-pagination",
             clickable: true,
         },
     });
